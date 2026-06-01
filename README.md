@@ -46,8 +46,6 @@ These guides are produced with AI assistance — and I believe in being upfront 
 - Technical accuracy is verified against current official documentation
 - Each guide states the tool versions it covers and the year of publication
 
-The authoring skill itself is in [`_skill/`](./_skill/) — fork it if you want to produce guides with similar structure.
-
 The value of each guide should stand on its content, not on how the prose was generated.
 
 ---
