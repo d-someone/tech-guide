@@ -8,7 +8,7 @@
 
 Technology moves fast. New tools, new versions, new best practices land every month. For any given topic — Spark, Kubernetes, networking, you name it — there are excellent sources out there: official documentation, conference talks, video courses, blog posts. **No one can read them all.**
 
-These guides exist to solve a specific problem: **continuous learning without drowning in tabs.** Each guide is a focused, in-depth reference distilled from those scattered sources into one place — written for the engineer who needs to actually *use* the technology, not just have heard of it.
+These guides exist to solve a specific problem: **continuous learning without drowning in tabs.** Each guide is a focused, in-depth reference distilled from those scattered sources into one place — written for the engineer who needs to actually _use_ the technology, not just have heard of it.
 
 I started writing them to align my own knowledge. I'm sharing them because if they're useful to me, they're probably useful to other engineers facing the same firehose.
 
@@ -16,16 +16,16 @@ I started writing them to align my own knowledge. I'm sharing them because if th
 
 ## Guides
 
-### Data Engineering
-- **[Apache Spark — The Ultimate Data Engineer Guide](./data-engineering/apache-spark/)** · Spark 3.x, PySpark, Delta Lake, AQE, Structured Streaming, Medallion Architecture
+### Published PDFs
 
-### DevOps
-- **[Networking for DevOps Engineers](./devops/networking/)** · OSI, TCP/IP, DNS, subnetting, load balancing, VPNs, TLS, cloud-native context
-- **[Kubernetes Kustomize — DevOps & GitOps Guide](./devops/kubernetes-kustomize/)** · Kustomize v5.x, Flux & Argo CD, CI gates, real-world patterns
+- [KEDA Autoscaler Guide](./keda-autoscaler-guide.pdf)
+- [External Secrets Operator Guide](./external-secrets-operator-guide.pdf)
 
-Each guide ships in two formats: a markdown version you can read directly on GitHub, and a polished PDF you can keep offline.
+More guides to come — new topics and formats are added regularly.
 
-> See the [Roadmap](./ROADMAP.md) for what's coming next. Have a request? [Open an issue.](../../issues/new?template=guide-request.md)
+Each guide is currently published as a polished PDF you can keep offline.
+
+> See the Roadmap (coming soon) for what's coming next. Have a request? [Open an issue.](../../issues/new?template=guide-request.md)
 
 ---
 
@@ -34,11 +34,13 @@ Each guide ships in two formats: a markdown version you can read directly on Git
 These guides are produced with AI assistance — and I believe in being upfront about that.
 
 **Where AI helps:**
+
 - Researching scope — what should be in a guide on this topic, and what shouldn't
 - Collecting and arranging content from official documentation and authoritative sources
 - Enforcing consistent structure, tone, and formatting across the series via a custom authoring skill
 
 **Where humans stay in the loop:**
+
 - Every guide is **read end-to-end by a human** before publication — not skimmed, not spot-checked, not AI-reviewed
 - The outline, scope, and editorial decisions are mine, based on real operational experience
 - Technical accuracy is verified against current official documentation
@@ -68,4 +70,4 @@ If a guide saved you time, a ⭐ on the repo is the easiest way to say thanks (a
 
 ---
 
-*d-someone Tech Guides · Built by engineers, for engineers.*
+_d-someone Tech Guides · Built by engineers, for engineers._
